@@ -8,17 +8,12 @@ import random
 from csv import DictReader
 from csv import reader
 
-#API URL and API Key for  Polaris account ( https://demo.app.imply.io/)
-#url = "https://demo.api.imply.io/v1/events/gaminganalytics-push"
+#API URL and API Key for  Polaris account ( ex https://demo.app.imply.io/)
+url = "https://xxxxxxx.api.imply.io/v1/events/gaminganalytics-push"
 
-#API URL and API Key for  Polaris account ( https://demo.app.imply.io/)
-url = "https://imply-gaminganalytics.api.imply.io/v1/events/gaminganalytics-push"
 
-# Key for https://demo.app.imply.io/
-# apikey = "pok_8AUWTmvnnFG9ILeONE0LY7ABSm4zmZwb07GFs5AdzsPJ1N85WWh7dEd1pZdTWrIppi"
-
-# key for https://imply-gaminganalytics.app.imply.io/
-apikey = "pok_8bW8NaRohKbXO430mqVGKW3Y4UXlnPIqEYRWHUQZ3M0pa58sYEA9IPqbCVx7Pc76KA"
+# key for https://imply-gaminganalytics.app.imply.io/ - replace with actual API Key
+apikey = "XXXXXXX"
 
 #path for dictionary files
 cwd = os.getcwd()
